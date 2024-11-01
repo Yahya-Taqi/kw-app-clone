@@ -1,0 +1,125 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#349BCD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!--Logo-->
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFFFF"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGO"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHANGE LIBRARY"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <!--Credentials Fields-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700px"
+            android:layout_marginTop="200px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                android:layout_marginStart="20px"
+                android:layout_marginEnd="20px"
+                android:hint="Jhondoe"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                android:layout_marginTop="50px"
+                android:layout_marginStart="20px"
+                android:layout_marginEnd="20px"
+                android:hint="********"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stay Logged In"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>>
+
+        <!--Buttons-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16px">
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In With Credentials"
+                android:textColor="#349BCD"
+                android:textSize="45px"
+                android:padding="30px"
+                android:backgroundTint="#FFFFFF"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                android:layout_marginTop="50px"
+                android:layout_marginStart="20px"
+                android:layout_marginEnd="20px"
+                android:layout_marginBottom="50px"
+                android:hint="---------------------------------------------------------OR----------------------------------------------------------"
+                android:textColorHint="#FFFFFF"
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In With Google"
+                android:textColor="#349BCD"
+                android:textSize="45px"
+                android:padding="30px"
+                android:backgroundTint="#FFFFFF"
+
+                />
+
+        </LinearLayout>>
+
+    </LinearLayout>
+</RelativeLayout>
