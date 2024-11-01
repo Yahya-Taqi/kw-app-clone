@@ -1,0 +1,114 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Heading-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout Examples"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:padding="5dp"
+            />
+
+        <!--Red Box-->
+        <TextView
+            android:id="@+id/red_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textColor="#000000"
+            android:background="#FF0000"
+            android:padding="16dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+
+            />
+
+        <!--Orange Box-->
+        <TextView
+            android:id="@+id/orange_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textColor="#000000"
+            android:background="#FFA500"
+            android:padding="16dp"
+            android:layout_marginStart="105dp"
+
+            />
+
+        <!--Yellow Box-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:textColor="#000000"
+            android:background="#FFFF00"
+            android:padding="16dp"
+            android:layout_marginStart="183dp"
+
+            />
+
+        <!--Green Box-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textColor="#000000"
+            android:background="#00FF00"
+            android:padding="16dp"
+            android:layout_marginStart="256dp"
+
+            />
+
+        <!--Blue Box-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textColor="#000000"
+            android:background="#0000FF"
+            android:padding="16dp"
+            android:layout_marginStart="196dp"
+
+            />
+
+        <!--Indigo Box-->
+
+        <!--Violet Box-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:background="#4B0082"
+            android:padding="16dp"
+            android:text="Indigo"
+            android:textColor="#000000"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="58dp"
+            android:background="#EE82EE"
+            android:padding="16dp"
+            android:text="Violet"
+            android:textColor="#000000"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
