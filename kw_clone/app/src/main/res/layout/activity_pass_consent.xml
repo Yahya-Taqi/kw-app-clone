@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+
+    <!--    Horizontal Line Divider-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A6A6A6"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kw_logo"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/singup_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Log In"
+            android:textColor="#344FE7"
+            android:clickable="true"
+            android:focusable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!-- First Agreement -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textStyle="bold"
+                android:text="By checking this box, you agree to our and acknowledge your personal information will be handled in accordance with our Privacy Policy "
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_terms"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A6A6A6"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Second Agreement -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:text="By checking this box, you agree that Keller Williams Realty, Inc. may send marketing emails to you at the email address you provided. You may unsubscribe from these emails at any time."
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_marketing"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A6A6A6"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pass_createAccBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/round_button"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

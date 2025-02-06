@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Home">
+
+    <!--    App Icon-->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/kw_logo"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+<!--    Heading-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"/>
+
+    <!--    Caption-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to your personlized homeownership\ndashboard!"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"/>
+
+<!--    Button-->
+    <Button
+        android:id="@+id/home_signup_login_btn"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Sign Up/Log In"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@null"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4E3E3"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can access so mch more when\n      you sign up for KW account!"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connecting to a local Keller Williams agent via search, browse or KW Concierge"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <!--    Horizontal Line Divider-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A6A6A6"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collections, saved searches and following neighborhoods"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <!--    Horizontal Line Divider-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A6A6A6"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access insights about value of your home"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <!--    Horizontal Line Divider-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A6A6A6"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
