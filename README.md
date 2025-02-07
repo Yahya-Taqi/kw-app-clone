@@ -14,3 +14,13 @@
   - Build #AI-242.23339.11.2421.12483815, built on October 11, 2024
   - Runtime version: 21.0.3+-12282718-b509.11 amd64
   - VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+
+### ‼ Important
+  - Before you run your application you would need a Google Maps API key.
+  - To get one, follow the instructions here: https://developers.google.com/maps/documentation/android-sdk/get-api-key.
+  - Once you have your key (it starts with "AIza"), replace the "YOUR_API_KEY" string in the ```AndroidManifest.xml``` file with your key. I have left a place holder there for convenience.
+```
+<meta-data
+  android:name="com.google.android.geo.API_KEY"
+  android:value="YOUR_API_KEY" />
+```
